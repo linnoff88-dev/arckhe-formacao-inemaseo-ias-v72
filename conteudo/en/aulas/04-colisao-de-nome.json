@@ -85,15 +85,15 @@
             "The wrong sources show where the confusion comes from."
           ],
           "exemplo": {
-            "rot": "At INEMA (07/10/2026)",
-            "texto": "\"What is INEMA?\" got 4 out of 4 answers about INEMA-BA, the environmental agency. \"Who is Nei Maldaner?\" brought up the old bio of an IT businessman, with no AI. But \"What is INEMA.club?\" was answered correctly."
+            "rot": "At ARCKHÉ (07/10/2026)",
+            "texto": "\"What is ARCKHÉ?\" got 4 out of 4 answers about ARCKHÉ-BA, the environmental agency. \"Who is Nei Maldaner?\" brought up the old bio of an IT businessman, with no AI. But \"What is ARCKHÉ AI?\" was answered correctly."
           }
         },
         {
           "titulo": "Full name and disambiguation",
           "sub": "visible text",
           "texto": [
-            "If the short name collides, always use the full name (at INEMA: INEMA.club) and publish a page that says who you are and who you should not be confused with.",
+            "If the short name collides, always use the full name (at ARCKHÉ: ARCKHÉ AI) and publish a page that says who you are and who you should not be confused with.",
             "On the founder page, link the old career path to the current one, in text: text is what the AI reads."
           ]
         },
@@ -110,7 +110,7 @@
           "sub": "single source",
           "texto": [
             "Write short sheets based on the battery questions: these are questions with proven demand. Each sheet with a real source; without confirmation, mark it PENDENTE.",
-            "At INEMA, after the July round, 54 sheets were published at /conhecimento/."
+            "At ARCKHÉ, after the July round, 54 sheets were published at /conhecimento/."
           ]
         }
       ]
@@ -135,7 +135,7 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "html": "<p>Entity <code>Person #nei</code> and <code>Organization #organization</code> published on every page of the portal on 09/24/2026. Catalog of 54 sheets published at <code>/conhecimento/</code> after the July measurement.</p><p>The next round of the battery is what tells whether the identity changed in the AIs: without re-measuring, it's just hope.</p>"
           },
           {
@@ -251,12 +251,12 @@
         },
         {
           "t": "Course 2 of the Program: Content (entity in detail)",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "caneta"
         },
         {
           "t": "AIV 2026: knowledge catalog (guide)",
-          "href": "https://inematds.github.io/aiv2026/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "arquivo"
         }
       ]

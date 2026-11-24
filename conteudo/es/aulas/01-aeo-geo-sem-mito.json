@@ -136,8 +136,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "El caso de INEMA",
-            "html": "<p>En julio de 2026 INEMA midió su propia citación: apareció en <b>0 de 48</b> respuestas neutras en Claude y en <b>0 de 4</b> en Gemini (52 mediciones neutras). Después de eso publicó 54 fichas de conocimiento y empezó a medir en Search Console y en Bing.</p><p>La lección: el problema no era un archivo faltante, era la falta de contenido que respondiera a las preguntas neutras del tema.</p>"
+            "rot": "El caso de ARCKHÉ",
+            "html": "<p>En julio de 2026 ARCKHÉ midió su propia citación: apareció en <b>0 de 48</b> respuestas neutras en Claude y en <b>0 de 4</b> en Gemini (52 mediciones neutras). Después de eso publicó 54 fichas de conocimiento y empezó a medir en Search Console y en Bing.</p><p>La lección: el problema no era un archivo faltante, era la falta de contenido que respondiera a las preguntas neutras del tema.</p>"
           },
           {
             "rot": "Dónde leer",
@@ -402,7 +402,7 @@
         },
         {
           "t": "Curso 1 de la Formación: Fundación",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         }
       ]

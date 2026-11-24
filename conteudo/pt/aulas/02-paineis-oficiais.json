@@ -55,8 +55,8 @@
       "blocos": [
         {"rot": "linha-de-base-ia.csv", "icone": "lista",
          "conteudo": "mes;gsc_impressoes_ia_28d;bing_citacoes;bing_paginas_citadas;top5_paginas_bing;top5_grounding_queries;observacao\n2026-10;<n ou sem dado>;<n>;<n>;<url1|url2|...>;<consulta1|consulta2|...>;<o que mudou no site este mês>"},
-        {"rot": "bing-ia · modelo (inemaseo-sistemas, MIT)", "icone": "terminal",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas/ferramentas/bing-ia\n# 1. importar os CSV exportados do AI Performance (páginas e grounding queries)\npython3 bing_ia.py importar ~/Downloads/ai-performance-*.csv --db dados/bing.sqlite\n# 2. cruzar com o histórico do Search Console (gsc-historico)\npython3 bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site seusite.com --saida saida/seusite"}
+        {"rot": "bing-ia · modelo (ARCKHÉseo-sistemas, MIT)", "icone": "terminal",
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas/ferramentas/bing-ia\n# 1. importar os CSV exportados do AI Performance (páginas e grounding queries)\npython3 bing_ia.py importar ~/Downloads/ai-performance-*.csv --db dados/bing.sqlite\n# 2. cruzar com o histórico do Search Console (gsc-historico)\npython3 bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site seusite.com --saida saida/seusite"}
       ],
       "saida": {
         "selo": "simulacao",
@@ -114,7 +114,7 @@
         {"t": "Search Console: relatório de IA generativa (ajuda)", "href": "https://support.google.com/webmasters/answer/16984139", "icone": "lupa"},
         {"t": "Bing: AI Performance no Webmaster Tools (inglês)", "href": "https://blogs.bing.com/webmaster/2026/02/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview", "icone": "grafico"},
         {"t": "Bing: Topics Portfolio, beta (inglês)", "href": "https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/", "icone": "camadas"},
-        {"t": "inemaseo-sistemas: bing-ia e as outras ferramentas (MIT)", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "git"}
+        {"t": "ARCKHÉseo-sistemas: bing-ia e as outras ferramentas (MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "git"}
       ]
     }
   ]

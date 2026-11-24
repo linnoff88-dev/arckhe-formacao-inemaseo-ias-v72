@@ -1,30 +1,30 @@
 {
-  "id": "formacao-inemaseo-ias-v72",
+  "id": "formacao-ARCKHÉseo-ias-v72",
   "lang": "es",
-  "url": "https://inematds.github.io/formacao-inemaseo-ias-v72/es/",
-  "nome": "inemaSEO 4 — En las IAs: AEO, GEO y sitios usados por agentes",
-  "sub": "Formación inemaSEO · curso 4 de 7",
+  "url": "https://linnoff88-dev.github.io/
+  "nome": "ARCKHÉSEO 4 — En las IAs: AEO, GEO y sitios usados por agentes",
+  "sub": "Formación ARCKHÉSEO · curso 4 de 7",
   "volta": {
-    "t": "Área inemaSEO",
-    "href": "https://eventos.inema.pro/inemaseo/"
+    "t": "Área ARCKHÉSEO",
+    "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/"
   },
   "lado_card": {
-    "rot": "Formación inemaSEO",
+    "rot": "Formación ARCKHÉSEO",
     "t": "Curso 4 de 7",
     "texto": "Con la medición en las IAs ya en pie, el curso 5 pone agentes en la terminal para hacer lo repetitivo, siempre con compuerta humana.",
     "link": "Ir al curso 5",
-    "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/"
+    "href": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/inemaseo/\">eventos.inema.pro/inemaseo</a> · <a href=\"https://github.com/inematds/inemaseo-metodo\">método inemaSEO (MIT)</a> · <a href=\"https://github.com/inematds/inemaseo-sistemas\">inemaseo-sistemas (MIT)</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · contenido abierto y gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://eventos.ARCKHÉ.pro/ARCKHÉseo/\">eventos.ARCKHÉ.pro/ARCKHÉseo</a> · <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-metodo\">método ARCKHÉSEO (MIT)</a> · <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-sistemas\">ARCKHÉseo-sistemas (MIT)</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {},
   "inicio": {
-    "kicker": "Formación inemaSEO · curso 4 de 7 · 8 clases",
+    "kicker": "Formación ARCKHÉSEO · curso 4 de 7 · 8 clases",
     "titulo": "En las IAs: AEO, GEO y sitios usados por agentes",
     "lead": "Que las IAs te citen no pide un archivo mágico: pide un buen SEO, contenido que solo tú tienes y una medición honesta. En ocho clases separas lo fundamental de lo que es moda, lees los paneles oficiales, mides las citas a mano cada mes, corriges tu entidad, revisas los robots en el log y preparas el sitio para los agentes.",
     "cta": "Empezar por la clase 1",
     "cta2": {
-      "t": "Ver el Área inemaSEO",
-      "href": "https://eventos.inema.pro/inemaseo/"
+      "t": "Ver el Área ARCKHÉSEO",
+      "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/"
     },
     "capa_alt": "La dueña de una pequeña panadería lee una respuesta en el celular, detrás del mostrador.",
     "numeros": [
@@ -66,13 +66,13 @@
         ]
       },
       {
-        "t": "Dónde entra este curso en la Formación inemaSEO",
+        "t": "Dónde entra este curso en la Formación ARCKHÉSEO",
         "itens": [
           "<b>1 Fundación</b>, <b>2 Contenido</b> y <b>3 Medición</b>: el cimiento, las páginas que solo tú escribes y el número sin marca.",
           "<b>4 En las IAs</b> (este curso): los paneles oficiales de IA, la medición de citas y el sitio listo para agentes.",
           "<b>5 Con Agentes</b> y <b>6 Profesional</b>: agentes haciendo lo repetitivo y SEO + IA como servicio.",
-          "<b>7 Sistemas</b>: las 5 herramientas abiertas de inemaseo-sistemas, tu propio Semrush abierto.",
-          "Todos siguen el <a href=\"https://github.com/inematds/inemaseo-metodo\">método inemaSEO</a>, abierto (MIT), aplicado en los sitios del propio INEMA."
+          "<b>7 Sistemas</b>: las 5 herramientas abiertas de ARCKHÉseo-sistemas, tu propio Semrush abierto.",
+          "Todos siguen el <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-metodo\">método ARCKHÉSEO</a>, abierto (MIT), aplicado en los sitios del propio ARCKHÉ."
         ]
       }
     ]

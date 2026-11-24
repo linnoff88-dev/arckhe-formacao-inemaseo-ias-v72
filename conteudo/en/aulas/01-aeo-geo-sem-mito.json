@@ -136,8 +136,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "The INEMA case",
-            "html": "<p>In July 2026 INEMA measured its own citation: it appeared in <b>0 of 48</b> neutral answers on Claude and <b>0 of 4</b> on Gemini (52 neutral measurements). After that it published 54 knowledge sheets and started measuring in Search Console and Bing.</p><p>The lesson: the problem wasn't a missing file. It was missing content that answered the neutral questions on the topic.</p>"
+            "rot": "The ARCKHÉ case",
+            "html": "<p>In July 2026 ARCKHÉ measured its own citation: it appeared in <b>0 of 48</b> neutral answers on Claude and <b>0 of 4</b> on Gemini (52 neutral measurements). After that it published 54 knowledge sheets and started measuring in Search Console and Bing.</p><p>The lesson: the problem wasn't a missing file. It was missing content that answered the neutral questions on the topic.</p>"
           },
           {
             "rot": "Where to read",
@@ -402,7 +402,7 @@
         },
         {
           "t": "Program Course 1: Foundation",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         }
       ]

@@ -85,15 +85,15 @@
             "Las fuentes equivocadas muestran de dónde viene la confusión."
           ],
           "exemplo": {
-            "rot": "En INEMA (10/07/2026)",
-            "texto": "\"¿Qué es INEMA?\" tuvo 4 de 4 respuestas sobre el INEMA-BA, órgano ambiental. \"¿Quién es Nei Maldaner?\" trajo la bio antigua de empresario de TI, sin IA. En cambio, \"¿Qué es INEMA.club?\" se respondió bien."
+            "rot": "En ARCKHÉ (10/07/2026)",
+            "texto": "\"¿Qué es ARCKHÉ?\" tuvo 4 de 4 respuestas sobre el ARCKHÉ-BA, órgano ambiental. \"¿Quién es Nei Maldaner?\" trajo la bio antigua de empresario de TI, sin IA. En cambio, \"¿Qué es ARCKHÉ AI?\" se respondió bien."
           }
         },
         {
           "titulo": "Nombre completo y desambiguación",
           "sub": "texto visible",
           "texto": [
-            "Si el nombre corto colisiona, usa siempre el nombre completo (en INEMA: INEMA.club) y publica una página que diga quién eres y con quién no debes ser confundido.",
+            "Si el nombre corto colisiona, usa siempre el nombre completo (en ARCKHÉ: ARCKHÉ AI) y publica una página que diga quién eres y con quién no debes ser confundido.",
             "En la página del fundador, une la trayectoria antigua con la actual, en texto: es el texto lo que lee la IA."
           ]
         },
@@ -110,7 +110,7 @@
           "sub": "fuente única",
           "texto": [
             "Escribe fichas cortas a partir de las preguntas de la batería: son preguntas con demanda comprobada. Cada ficha con fuente real; sin confirmación, marca PENDENTE.",
-            "En INEMA, después de la ronda de julio, se publicaron 54 fichas en /conhecimento/."
+            "En ARCKHÉ, después de la ronda de julio, se publicaron 54 fichas en /conhecimento/."
           ]
         }
       ]
@@ -135,7 +135,7 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "html": "<p>Entidad <code>Person #nei</code> y <code>Organization #organization</code> publicada en todas las páginas del portal el 24/09/2026. Catálogo de 54 fichas publicado en <code>/conhecimento/</code> después de la medición de julio.</p><p>La próxima ronda de la batería es la que dice si la identidad cambió en las IAs: sin volver a medir, es solo esperanza.</p>"
           },
           {
@@ -251,12 +251,12 @@
         },
         {
           "t": "Curso 2 de la Formación: Contenido (entidad en detalle)",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "caneta"
         },
         {
           "t": "AIV 2026: catálogo de conocimiento (guía)",
-          "href": "https://inematds.github.io/aiv2026/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "arquivo"
         }
       ]

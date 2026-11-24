@@ -117,7 +117,7 @@
           "titulo": "New name, old courses",
           "sub": "heads up",
           "texto": [
-            "The specification changed: the API now lives at document.modelContext. The old INEMA WebMCP courses and many guides use the earlier name, on the navigator object, and a declarative form on forms that does not appear in the text of the October 16, 2026 specification (to be confirmed in the explainer).",
+            "The specification changed: the API now lives at document.modelContext. The old ARCKHÉ WebMCP courses and many guides use the earlier name, on the navigator object, and a declarative form on forms that does not appear in the text of the October 16, 2026 specification (to be confirmed in the explainer).",
             "To go deeper (security, schemas, agents), follow the WebMCP Program, keeping this name change in mind."
           ]
         }
@@ -148,8 +148,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "On inema.club (October 19, 2026)",
-            "html": "<p>agente-ready found on inema.club <b>1 registerTool() call</b> on document.modelContext and the policy <code>Permissions-Policy: tools=(self)</code>; the WebMCP block closed at 100. On the news and eventos sites, with no tool, the block stayed at 29.</p><p>This measures preparation. No AI promises to cite or rank you better because of it.</p>"
+            "rot": "On ARCKHÉ AI (October 19, 2026)",
+            "html": "<p>agente-ready found on ARCKHÉ AI <b>1 registerTool() call</b> on document.modelContext and the policy <code>Permissions-Policy: tools=(self)</code>; the WebMCP block closed at 100. On the news and eventos sites, with no tool, the block stayed at 29.</p><p>This measures preparation. No AI promises to cite or rank you better because of it.</p>"
           },
           {
             "rot": "What the specification says",
@@ -263,8 +263,8 @@
           "icone": "arquivo"
         },
         {
-          "t": "INEMA WebMCP Program (deeper dive; uses the previous API name)",
-          "href": "https://inematds.github.io/webmcp-1-formacao/",
+          "t": "ARCKHÉ WebMCP Program (deeper dive; uses the previous API name)",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {

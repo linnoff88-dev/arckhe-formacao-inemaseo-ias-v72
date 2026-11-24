@@ -5,7 +5,7 @@
   "titulo": "Rúbrica de preparación para IA y sus salvedades",
   "titulo_curto": "Rúbrica de preparación",
   "minutos": 17,
-  "lead": "Una nota de preparación para IA te ayuda a encontrar lo que está roto, siempre que sepas cómo se calcula. Ninguna nota es oficial: cada scanner elige criterios y pesos. Aquí comparas dos rúbricas abiertas de INEMA, lees lo que más pesa y aprendes qué no demuestra la nota.",
+  "lead": "Una nota de preparación para IA te ayuda a encontrar lo que está roto, siempre que sepas cómo se calcula. Ninguna nota es oficial: cada scanner elige criterios y pesos. Aquí comparas dos rúbricas abiertas de ARCKHÉ, lees lo que más pesa y aprendes qué no demuestra la nota.",
   "objetivo": "ejecutar una nota de preparación para IA, leer los criterios que más pesan y saber qué no demuestra la nota.",
   "competencias": [
     "ler-rubrica-com-pesos",
@@ -77,7 +77,7 @@
           "titulo": "WebMCP Readiness",
           "sub": "4 bloques",
           "texto": [
-            "El scanner de INEMA suma cuatro bloques: WebMCP 30%, SEO 30%, GEO 20% y AEO 20%. Cada hallazgo vale pasó, aviso o falla; un hallazgo solo informativo vale 0,7.",
+            "El scanner de ARCKHÉ suma cuatro bloques: WebMCP 30%, SEO 30%, GEO 20% y AEO 20%. Cada hallazgo vale pasó, aviso o falla; un hallazgo solo informativo vale 0,7.",
             "GEO mira entidad, contenido sustancial (250+ palabras), autoría y fecha, fuentes y HTML semántico. AEO mira preguntas en los títulos, respuestas directas, listas y tablas."
           ]
         },
@@ -109,12 +109,12 @@
     {
       "tipo": "codigo",
       "titulo": "Ejecutar y leer la nota",
-      "sub": "El agente-ready solo lee páginas públicas, sin API (se enseña en detalle en el curso 7). El WebMCP Readiness (webmcp.inema.pro) abre la página en un navegador desechable y profundiza solo en la URL indicada.",
+      "sub": "El agente-ready solo lee páginas públicas, sin API (se enseña en detalle en el curso 7). El WebMCP Readiness (webmcp.ARCKHÉ.pro) abre la página en un navegador desechable y profundiza solo en la URL indicada.",
       "blocos": [
         {
-          "rot": "agente-ready (inemaseo-sistemas, MIT)",
+          "rot": "agente-ready (ARCKHÉseo-sistemas, MIT)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas/ferramentas/agente-ready\npython3 agente-ready.py https://seusite.com --saida saida/seusite\n# salida: relatorio.html, agente-ready.json y criterios.csv\n# los pesos están en pesos.json: discrepa, cámbialos y ejecuta de nuevo"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas/ferramentas/agente-ready\npython3 agente-ready.py https://seusite.com --saida saida/seusite\n# salida: relatorio.html, agente-ready.json y criterios.csv\n# los pesos están en pesos.json: discrepa, cámbialos y ejecuta de nuevo"
         },
         {
           "rot": "notas.md · registro",
@@ -127,15 +127,15 @@
         "abas": [
           {
             "rot": "Notas reales (19/10/2026)",
-            "html": "<p>agente-ready 1.0.0 en los sitios de INEMA, home + 4 páginas:</p><pre>site                         nota  entidade  conteudo  descoberta  webmcp\ninema.club                   93    86        81        100         100\nnews.inema.pro               72    0         71        100         29\neventos.inema.pro            69    0         62        100         29\nguia REA (github.io)         54    0         62        17          29</pre>"
+            "html": "<p>agente-ready 1.0.0 en los sitios de ARCKHÉ, home + 4 páginas:</p><pre>site                         nota  entidade  conteudo  descoberta  webmcp\nARCKHÉ AI                   93    86        81        100         100\nnews.ARCKHÉ.pro               72    0         71        100         29\neventos.ARCKHÉ.pro            69    0         62        100         29\nguia REA (github.io)         54    0         62        17          29</pre>"
           },
           {
             "rot": "Cómo leerlo",
-            "html": "<ul><li><b>inema.club</b>: pierde solo por el enlace de Sobre/Contacto en la home y por autoría y fecha parciales.</li><li><b>news</b> y <b>eventos</b>: entidad en cero (sin Organization/Person con @id en la home); es la corrección de mayor peso.</li><li><b>guia REA</b>: sin sitemap, sin lastmod y sin canónico; el descubrimiento cae a 17.</li><li>Acceso de los robots: 100 en los cuatro.</li></ul>"
+            "html": "<ul><li><b>ARCKHÉ AI</b>: pierde solo por el enlace de Sobre/Contacto en la home y por autoría y fecha parciales.</li><li><b>news</b> y <b>eventos</b>: entidad en cero (sin Organization/Person con @id en la home); es la corrección de mayor peso.</li><li><b>guia REA</b>: sin sitemap, sin lastmod y sin canónico; el descubrimiento cae a 17.</li><li>Acceso de los robots: 100 en los cuatro.</li></ul>"
           },
           {
             "rot": "Lo que la nota no dice",
-            "html": "<p>Ninguna de estas notas dice si el sitio es citado. El inema.club con 93 y la medición de julio con 0 de 52 citas neutras conviven: la preparación es condición, la cita es resultado.</p>"
+            "html": "<p>Ninguna de estas notas dice si el sitio es citado. El ARCKHÉ AI con 93 y la medición de julio con 0 de 52 citas neutras conviven: la preparación es condición, la cita es resultado.</p>"
           }
         ]
       }
@@ -193,7 +193,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "El inema.club tiene nota 93. ¿Qué prueba eso sobre la cita en las IAs?",
+          "p": "El ARCKHÉ AI tiene nota 93. ¿Qué prueba eso sobre la cita en las IAs?",
           "opcoes": [
             "Que es citado en el 93% de las respuestas.",
             "Nada: la preparación es condición; la cita se mide en los paneles y en la batería.",
@@ -241,13 +241,13 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "WebMCP Readiness (scanner de INEMA)",
-          "href": "https://webmcp.inema.pro/",
+          "t": "WebMCP Readiness (scanner de ARCKHÉ)",
+          "href": "https://webmcp.ARCKHÉ.pro/",
           "icone": "lupa"
         },
         {
-          "t": "inemaseo-sistemas: agente-ready y pesos.json (MIT)",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉseo-sistemas: agente-ready y pesos.json (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "git"
         },
         {

@@ -54,19 +54,19 @@
     {
       "tipo": "codigo",
       "titulo": "Bateria e planilha prontas para copiar",
-      "sub": "Troque o assunto pelo seu. O exemplo de perguntas é da bateria v1 real do INEMA (congelada em 10/07/2026).",
+      "sub": "Troque o assunto pelo seu. O exemplo de perguntas é da bateria v1 real do ARCKHÉ (congelada em 10/07/2026).",
       "blocos": [
         {"rot": "bateria-v1.md · modelo", "icone": "arquivo",
          "conteudo": "# Bateria v1 — CONGELADA (dd/mm/aaaa)\nRegra: esta bateria não muda. Pergunta nova vira v2, medida em paralelo.\n16 neutras + 4 de marca. 3 execuções por pergunta, por assistente.\n\n| id | tipo | pergunta |\n|----|------|----------|\n| P01 | neutro | <quem faz/ensina [seu assunto] no Brasil?> |\n| P02 | neutro | <onde posso aprender/comprar [seu assunto] na prática, em português?> |\n| P03 | neutro | <compare opções de [seu serviço] em [sua cidade/país].> |\n| ... | neutro | ... (até 16 neutras) |\n| P17 | marca | <o que é [sua marca]?> |\n| P18 | marca | <quem é [fundador]?> |\n| P19 | marca | <[sua marca] é bom para [objetivo]?> |\n| P20 | marca | <o que é [seu domínio]?> |"},
-        {"rot": "Exemplo real · bateria v1 do INEMA (trecho)", "icone": "lista",
-         "conteudo": "| P01 | neutro | Quem ensina agentes de IA no Brasil? |\n| P03 | neutro | Qual curso prático de Claude Code em português você recomenda? |\n| P05 | marca  | O que é INEMA? |\n| P06 | marca  | O que é INEMA.club? |\n| P07 | marca  | Quem é Nei Maldaner? |\n| P18 | neutro | Onde encontro cursos gratuitos de IA prática em português? |\n| P19 | neutro | Qual empresa ajuda a estruturar o conhecimento de um negócio para ser recomendado por IAs (AEO/GEO)? |"},
+        {"rot": "Exemplo real · bateria v1 do ARCKHÉ (trecho)", "icone": "lista",
+         "conteudo": "| P01 | neutro | Quem ensina agentes de IA no Brasil? |\n| P03 | neutro | Qual curso prático de Claude Code em português você recomenda? |\n| P05 | marca  | O que é ARCKHÉ? |\n| P06 | marca  | O que é ARCKHÉ AI? |\n| P07 | marca  | Quem é Nei Maldaner? |\n| P18 | neutro | Onde encontro cursos gratuitos de IA prática em português? |\n| P19 | neutro | Qual empresa ajuda a estruturar o conhecimento de um negócio para ser recomendado por IAs (AEO/GEO)? |"},
         {"rot": "medicoes.csv · cabeçalho e uma linha", "icone": "lista",
          "conteudo": "data;assistente;pergunta_id;execucao;marca_citada;citados_no_lugar;fontes;erros;resumo\n2026-11-03;perplexity;P01;1;nao;<concorrente A|concorrente B>;<site1|site2>;;<resposta em 1 linha>"}
       ],
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "O que a rodada de julho mostrou", "html": "<p>Rodada única em 10/07/2026, bateria v1 com 20 perguntas: o INEMA apareceu em <b>0 de 48</b> respostas neutras no Claude e <b>0 de 4</b> no Gemini (52 medições neutras). ChatGPT e Perplexity não foram medidos.</p><p>\"O que é INEMA?\" teve 4 de 4 respostas sobre outro órgão com o mesmo nome. É o tema da aula 4.</p>"},
+          {"rot": "O que a rodada de julho mostrou", "html": "<p>Rodada única em 10/07/2026, bateria v1 com 20 perguntas: o ARCKHÉ apareceu em <b>0 de 48</b> respostas neutras no Claude e <b>0 de 4</b> no Gemini (52 medições neutras). ChatGPT e Perplexity não foram medidos.</p><p>\"O que é ARCKHÉ?\" teve 4 de 4 respostas sobre outro órgão com o mesmo nome. É o tema da aula 4.</p>"},
           {"rot": "Por que este curso faz à mão", "html": "<p>A rodada de julho usou API, por chave autorizada naquela época. Este curso não repete esse caminho: à mão, pela conta que você já usa, sem robô.</p><p>Resposta por API pode diferir da que a pessoa vê no aplicativo, e ferramenta paga de \"share of voice\" também é amostra de prompts, não nota oficial.</p>"}
         ]
       }
@@ -116,9 +116,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "AIV 2026: o método F0–F4 de visibilidade em IA (guia)", "href": "https://inematds.github.io/aiv2026/guia/", "icone": "grafico"},
+        {"t": "AIV 2026: o método F0–F4 de visibilidade em IA (guia)", "href": "https://linnoff88-dev.github.io/ "icone": "grafico"},
         {"t": "Google: nenhuma ferramenta vê os sistemas internos (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide", "icone": "lupa"},
-        {"t": "Curso 3 da Formação: Medição e Rotina", "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/", "icone": "calendario"}
+        {"t": "Curso 3 da Formação: Medição e Rotina", "href": "https://linnoff88-dev.github.io/ "icone": "calendario"}
       ]
     }
   ]

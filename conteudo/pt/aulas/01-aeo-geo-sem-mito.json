@@ -61,7 +61,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "O caso do INEMA", "html": "<p>Em julho de 2026 o INEMA mediu a própria citação: apareceu em <b>0 de 48</b> respostas neutras no Claude e <b>0 de 4</b> no Gemini (52 medições neutras). Depois disso publicou 54 fichas de conhecimento e passou a medir no Search Console e no Bing.</p><p>A lição: o problema não era um arquivo faltando, era faltar conteúdo que respondesse às perguntas neutras do assunto.</p>"},
+          {"rot": "O caso do ARCKHÉ", "html": "<p>Em julho de 2026 o ARCKHÉ mediu a própria citação: apareceu em <b>0 de 48</b> respostas neutras no Claude e <b>0 de 4</b> no Gemini (52 medições neutras). Depois disso publicou 54 fichas de conhecimento e passou a medir no Search Console e no Bing.</p><p>A lição: o problema não era um arquivo faltando, era faltar conteúdo que respondesse às perguntas neutras do assunto.</p>"},
           {"rot": "Onde ler", "html": "<ul><li>Guia de otimização para IA do Google (maio/2026).</li><li>Recursos de IA e o seu site (Google).</li><li>Estudo do llms.txt (Ahrefs, 15/06/2026).</li></ul><p>Links no fim da aula.</p>"}
         ]
       }
@@ -179,7 +179,7 @@
         {"t": "Google: recursos de IA e o seu site (inglês)", "href": "https://developers.google.com/search/docs/appearance/ai-features", "icone": "lupa"},
         {"t": "Google: políticas de spam, conteúdo escalado (inglês)", "href": "https://developers.google.com/search/docs/essentials/spam-policies#scaled-content", "icone": "escudo"},
         {"t": "Ahrefs: estudo do llms.txt (inglês)", "href": "https://ahrefs.com/blog/llmstxt-study/", "icone": "grafico"},
-        {"t": "Curso 1 da Formação: Fundação", "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/", "icone": "camadas"}
+        {"t": "Curso 1 da Formação: Fundação", "href": "https://linnoff88-dev.github.io/ "icone": "camadas"}
       ]
     }
   ]

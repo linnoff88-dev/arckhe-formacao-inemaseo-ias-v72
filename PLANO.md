@@ -1,8 +1,8 @@
-# PLANO — inemaSEO 4 · Nas IAs: AEO, GEO e sites usados por agentes (v7.2)
+# PLANO — ARCKHÉSEO 4 · Nas IAs: AEO, GEO e sites usados por agentes (v7.2)
 
-Curso 4 de 6 da Formação inemaSEO. Público: dono de site ou profissional que quer ser encontrado e citado pelas IAs. Pré-requisito sugerido: cursos 1–3 (fundação, conteúdo, medição).
+Curso 4 de 6 da Formação ARCKHÉSEO. Público: dono de site ou profissional que quer ser encontrado e citado pelas IAs. Pré-requisito sugerido: cursos 1–3 (fundação, conteúdo, medição).
 
-Fontes (não alteradas): `wifi/longrun/2026-10-19-formacao-inemaseo-v72/TENDENCIAS-SEO-GEO-2026-10.md` (régua de 2026), `~/projetos/aiv2026` (playbook-aeo-geo.md, case-inema/), `~/projetos/aiv/diagnostico/` (bateria-v1.md, baseline-2026-07.md — só leitura; a rodada de julho usou API e não é repetida), `~/projetos/webmcp-readiness/lib/audit-rules.mjs`, `~/projetos/inemaseo-sistemas` (bing-ia, botlog, agente-ready: READMEs e exemplos de 19/10/2026), especificação WebMCP do W3C CG (16/10/2026), web.dev "Build agent-friendly websites".
+Fontes (não alteradas): `wifi/longrun/2026-10-19-formacao-ARCKHÉseo-v72/TENDENCIAS-SEO-GEO-2026-10.md` (régua de 2026), `~/projetos/aiv2026` (playbook-aeo-geo.md, case-ARCKHÉ/), `~/projetos/aiv/diagnostico/` (bateria-v1.md, baseline-2026-07.md — só leitura; a rodada de julho usou API e não é repetida), `~/projetos/webmcp-readiness/lib/audit-rules.mjs`, `~/projetos/ARCKHÉseo-sistemas` (bing-ia, botlog, agente-ready: READMEs e exemplos de 19/10/2026), especificação WebMCP do W3C CG (16/10/2026), web.dev "Build agent-friendly websites".
 
 ## As 8 aulas
 
@@ -34,17 +34,17 @@ Personagem: dona de uma loja de móveis planejados, site pequeno; recebeu oferta
 Somas: direto 2+2+2+2 = 8; desvio 1+1+2+2+2 = 8 (não passa). Máximo = 8.
 
 ## Convenções (do piloto)
-- `icone` "lupa"; `sub` "Formação inemaSEO · curso 4 de 6"; `volta` área inemaSEO; `lado_card` → curso 5 `formacao-inemaseo-agentes-v72`; `inicio.kicker` "Formação inemaSEO · curso 4 de 6 · 8 aulas".
+- `icone` "lupa"; `sub` "Formação ARCKHÉSEO · curso 4 de 6"; `volta` área ARCKHÉSEO; `lado_card` → curso 5 `formacao-ARCKHÉseo-agentes-v72`; `inicio.kicker` "Formação ARCKHÉSEO · curso 4 de 6 · 8 aulas".
 - Aula: diagrama → passos → codigo (com saída) → [simconversa] → pratica (e1/e2) → quiz (4) → resumo (com "Régua de 2026") → links.
-- Números do INEMA só da lista "Casos reais" do BRIEF + as notas do agente-ready de 19/10 (autorizadas). Exemplo do bing-ia é FICTÍCIO (selo simulação). Saída do botlog do exemplo real fica em `saida` com data.
+- Números do ARCKHÉ só da lista "Casos reais" do BRIEF + as notas do agente-ready de 19/10 (autorizadas). Exemplo do bing-ia é FICTÍCIO (selo simulação). Saída do botlog do exemplo real fica em `saida` com data.
 - WebMCP: só `document.modelContext`. Nunca escrever o nome antigo por extenso no conteúdo (o checador da formação procura a string); diz-se "os cursos WebMCP antigos usam o nome anterior, no objeto navigator".
 
 ## Decisões tomadas sozinho
 - Capa sem texto (como o piloto), foto da dona de padaria lendo o celular; 10/10 imagens pelo Codex na 1ª tentativa, sem reserva flux.
-- Ferramentas do inemaseo-sistemas aparecem com um comando + saída + link e "detalhe no curso 7" (bing-ia na aula 2, botlog na 5, agente-ready na 6 e 7), sem tutorial de opções.
+- Ferramentas do ARCKHÉseo-sistemas aparecem com um comando + saída + link e "detalhe no curso 7" (bing-ia na aula 2, botlog na 5, agente-ready na 6 e 7), sem tutorial de opções.
 - bing-ia: saída com selo "simulação" e aviso de que o exemplo do repositório é fictício e as colunas do export são palpite.
-- botlog: saída real do exemplo de desenho.inema.pro (rodado localmente em 19/10/2026, sem rede) só dentro de `saida`; a amostra montada descrita como montada.
-- Notas do agente-ready de 19/10 (93/72/69/54) e o detalhe WebMCP do inema.club (1 registerTool, tools=(self)) só dentro de `saida` com data.
+- botlog: saída real do exemplo de desenho.ARCKHÉ.pro (rodado localmente em 19/10/2026, sem rede) só dentro de `saida`; a amostra montada descrita como montada.
+- Notas do agente-ready de 19/10 (93/72/69/54) e o detalhe WebMCP do ARCKHÉ AI (1 registerTool, tools=(self)) só dentro de `saida` com data.
 - Baseline de julho: só 0/48, 0/4, 52, 4/4 e 54 fichas; concorrentes citados e contagens de entidades do baseline ficaram fora. Diz que a rodada usou API e que o curso faz à mão.
 - "Quem é Nei Maldaner?" com bio antiga entra como achado qualitativo (sem número), fonte baseline-2026-07.md.
 - WebMCP: exemplo de ferramenta somente leitura escrito a partir da IDL da especificação de 16/10/2026 (name, title, description, inputSchema, execute, annotations.readOnlyHint; options.signal). O nome antigo nunca aparece por extenso.

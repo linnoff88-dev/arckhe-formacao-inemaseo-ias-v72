@@ -98,7 +98,7 @@
           "sub": "public key + notice",
           "texto": [
             "Publish the key in a .txt file at the site root and notify the new URLs after each publication. The method's script checks for the 200 before notifying.",
-            "At INEMA: 109 URLs notified with a 202 response on 09/24/2026 and 90 URLs with 200 on 10/02/2026."
+            "At ARCKHÉ: 109 URLs notified with a 202 response on 09/24/2026 and 90 URLs with 200 on 10/02/2026."
           ]
         },
         {
@@ -113,7 +113,7 @@
           "titulo": "Read by purpose",
           "sub": "botlog",
           "texto": [
-            "Run botlog (inemaseo-sistemas, MIT) or filter by hand on User-Agent. Look at three things: which purpose shows up, how many fakes there are, and whether any search bot got a 403."
+            "Run botlog (ARCKHÉseo-sistemas, MIT) or filter by hand on User-Agent. Look at three things: which purpose shows up, how many fakes there are, and whether any search bot got a 403."
           ],
           "exemplo": {
             "rot": "Common reading",
@@ -125,17 +125,17 @@
     {
       "tipo": "codigo",
       "titulo": "IndexNow and botlog",
-      "sub": "The first block is from the inemaSEO method (model only: it needs your key). The second reads the log on your computer; detailed teaching in course 7.",
+      "sub": "The first block is from the ARCKHÉSEO method (model only: it needs your key). The second reads the log on your computer; detailed teaching in course 7.",
       "blocos": [
         {
-          "rot": "avisar_buscadores.sh (inemaseo-metodo)",
+          "rot": "avisar_buscadores.sh (ARCKHÉseo-metodo)",
           "icone": "terminal",
           "conteudo": "# urls.txt: one URL per line, all on the same host\n# the IndexNow key is published at https://seusite.com/<chave>.txt\nINDEXNOW_KEY=<chave> tools/avisar_buscadores.sh urls.txt\n# checks that each URL returns 200 before notifying; stops if any does not return 200"
         },
         {
-          "rot": "botlog (inemaseo-sistemas)",
+          "rot": "botlog (ARCKHÉseo-sistemas)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas/ferramentas/botlog\n# copy the server log (read-only)\nssh usuario@SEU_SERVIDOR 'cd /var/log/nginx; zcat -f access.log.*.gz; cat access.log.1 access.log' > /tmp/site.log\n# report by purpose, with the IP checked against the official lists\npython3 botlog.py analisar /tmp/site.log --sitemap https://seusite.com/sitemap.xml --saida saida/site\n# LGPD: before sharing, keep only the bot lines with an official IP\npython3 botlog.py filtrar /tmp/site.log --saida /tmp/so-robos.log"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas/ferramentas/botlog\n# copy the server log (read-only)\nssh usuario@SEU_SERVIDOR 'cd /var/log/nginx; zcat -f access.log.*.gz; cat access.log.1 access.log' > /tmp/site.log\n# report by purpose, with the IP checked against the official lists\npython3 botlog.py analisar /tmp/site.log --sitemap https://seusite.com/sitemap.xml --saida saida/site\n# LGPD: before sharing, keep only the bot lines with an official IP\npython3 botlog.py filtrar /tmp/site.log --saida /tmp/so-robos.log"
         }
       ],
       "saida": {
@@ -143,7 +143,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<p>botlog on the real log of desenho.inema.pro (10/05 to 10/19/2026), already filtered to only bots with an official IP:</p><pre>8 linhas, 8 de robô (treino 6, busca 2); falsos 0\n\nrobo           finalidade  acessos  paginas  robots_txt  4xx/5xx\nGPTBot         treino      4        2        0           0\nClaudeBot      treino      2        2        1           0\nOAI-SearchBot  busca       2        1        2           1</pre>"
+            "html": "<p>botlog on the real log of desenho.ARCKHÉ.pro (10/05 to 10/19/2026), already filtered to only bots with an official IP:</p><pre>8 linhas, 8 de robô (treino 6, busca 2); falsos 0\n\nrobo           finalidade  acessos  paginas  robots_txt  4xx/5xx\nGPTBot         treino      4        2        0           0\nClaudeBot      treino      2        2        1           0\nOAI-SearchBot  busca       2        1        2           1</pre>"
           },
           {
             "rot": "Assembled sample",
@@ -271,8 +271,8 @@
           "icone": "robo"
         },
         {
-          "t": "inemaseo-sistemas: botlog (MIT)",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉseo-sistemas: botlog (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "git"
         }
       ]

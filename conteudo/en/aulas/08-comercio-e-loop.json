@@ -284,7 +284,7 @@
       "tipo": "gerador",
       "titulo": "Generate your plan with dates",
       "sub": "Pick your start date and how much time you have per week. The plan respects the exercises that require waiting days.",
-      "curso": "inemaSEO 4 · In the AIs",
+      "curso": "ARCKHÉSEO 4 · In the AIs",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -321,7 +321,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 4 · In the AIs",
+        "titulo": "Plan — ARCKHÉSEO 4 · In the AIs",
         "inicio": "Start",
         "ritmo": "Pace",
         "termino": "Expected finish",
@@ -367,7 +367,7 @@
         },
         {
           "t": "Course 5 of the Program: With Agents",
-          "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "terminal"
         }
       ]

@@ -113,7 +113,7 @@
     {
       "tipo": "codigo",
       "titulo": "Battery and spreadsheet ready to copy",
-      "sub": "Swap the topic for yours. The example questions come from the real INEMA battery v1 (frozen on 07/10/2026).",
+      "sub": "Swap the topic for yours. The example questions come from the real ARCKHÉ battery v1 (frozen on 07/10/2026).",
       "blocos": [
         {
           "rot": "bateria-v1.md · template",
@@ -121,9 +121,9 @@
           "conteudo": "# Battery v1 — FROZEN (dd/mm/yyyy)\nRule: this battery does not change. A new question becomes v2, measured in parallel.\n16 neutral + 4 branded. 3 runs per question, per assistant.\n\n| id | type | question |\n|----|------|----------|\n| P01 | neutral | <who does/teaches [your topic] in Brazil?> |\n| P02 | neutral | <where can I learn/buy [your topic] in practice, in Portuguese?> |\n| P03 | neutral | <compare options for [your service] in [your city/country].> |\n| ... | neutral | ... (up to 16 neutral) |\n| P17 | brand | <what is [your brand]?> |\n| P18 | brand | <who is [founder]?> |\n| P19 | brand | <is [your brand] good for [goal]?> |\n| P20 | brand | <what is [your domain]?> |"
         },
         {
-          "rot": "Real example · INEMA battery v1 (excerpt)",
+          "rot": "Real example · ARCKHÉ battery v1 (excerpt)",
           "icone": "lista",
-          "conteudo": "| P01 | neutral | Quem ensina agentes de IA no Brasil? |\n| P03 | neutral | Qual curso prático de Claude Code em português você recomenda? |\n| P05 | brand  | O que é INEMA? |\n| P06 | brand  | O que é INEMA.club? |\n| P07 | brand  | Quem é Nei Maldaner? |\n| P18 | neutral | Onde encontro cursos gratuitos de IA prática em português? |\n| P19 | neutral | Qual empresa ajuda a estruturar o conhecimento de um negócio para ser recomendado por IAs (AEO/GEO)? |"
+          "conteudo": "| P01 | neutral | Quem ensina agentes de IA no Brasil? |\n| P03 | neutral | Qual curso prático de Claude Code em português você recomenda? |\n| P05 | brand  | O que é ARCKHÉ? |\n| P06 | brand  | O que é ARCKHÉ AI? |\n| P07 | brand  | Quem é Nei Maldaner? |\n| P18 | neutral | Onde encontro cursos gratuitos de IA prática em português? |\n| P19 | neutral | Qual empresa ajuda a estruturar o conhecimento de um negócio para ser recomendado por IAs (AEO/GEO)? |"
         },
         {
           "rot": "medicoes.csv · header and one row",
@@ -136,7 +136,7 @@
         "abas": [
           {
             "rot": "What the July round showed",
-            "html": "<p>A single round on 07/10/2026, battery v1 with 20 questions: INEMA appeared in <b>0 of 48</b> neutral answers on Claude and <b>0 of 4</b> on Gemini (52 neutral measurements). ChatGPT and Perplexity were not measured.</p><p>\"O que é INEMA?\" got 4 of 4 answers about a different organization with the same name. That's the topic of lesson 4.</p>"
+            "html": "<p>A single round on 07/10/2026, battery v1 with 20 questions: ARCKHÉ appeared in <b>0 of 48</b> neutral answers on Claude and <b>0 of 4</b> on Gemini (52 neutral measurements). ChatGPT and Perplexity were not measured.</p><p>\"O que é ARCKHÉ?\" got 4 of 4 answers about a different organization with the same name. That's the topic of lesson 4.</p>"
           },
           {
             "rot": "Why this course does it by hand",
@@ -247,7 +247,7 @@
       "links": [
         {
           "t": "AIV 2026: the F0–F4 method for AI visibility (guide)",
-          "href": "https://inematds.github.io/aiv2026/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "grafico"
         },
         {
@@ -257,7 +257,7 @@
         },
         {
           "t": "Course 3 of the Program: Measurement and Routine",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "calendario"
         }
       ]

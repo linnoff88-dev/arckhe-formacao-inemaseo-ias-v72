@@ -117,7 +117,7 @@
           "titulo": "Nombre nuevo, cursos antiguos",
           "sub": "atención",
           "texto": [
-            "La especificación cambió: la API ahora está en document.modelContext. Los cursos WebMCP antiguos de INEMA y muchas guías usan el nombre anterior, en el objeto navigator, y una forma declarativa en formularios que no aparece en el texto de la especificación del 16/10/2026 (por confirmar en el explainer).",
+            "La especificación cambió: la API ahora está en document.modelContext. Los cursos WebMCP antiguos de ARCKHÉ y muchas guías usan el nombre anterior, en el objeto navigator, y una forma declarativa en formularios que no aparece en el texto de la especificación del 16/10/2026 (por confirmar en el explainer).",
             "Para profundizar (seguridad, schemas, agentes), sigue la Formación WebMCP, teniendo en cuenta este ajuste de nombre."
           ]
         }
@@ -148,8 +148,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "En inema.club (19/10/2026)",
-            "html": "<p>agente-ready encontró en inema.club <b>1 llamada registerTool()</b> en document.modelContext y la política <code>Permissions-Policy: tools=(self)</code>; el bloque WebMCP cerró en 100. En los sitios news y eventos, sin herramienta, el bloque quedó en 29.</p><p>Esto mide preparación. Ninguna IA promete citar ni posicionar mejor por esto.</p>"
+            "rot": "En ARCKHÉ AI (19/10/2026)",
+            "html": "<p>agente-ready encontró en ARCKHÉ AI <b>1 llamada registerTool()</b> en document.modelContext y la política <code>Permissions-Policy: tools=(self)</code>; el bloque WebMCP cerró en 100. En los sitios news y eventos, sin herramienta, el bloque quedó en 29.</p><p>Esto mide preparación. Ninguna IA promete citar ni posicionar mejor por esto.</p>"
           },
           {
             "rot": "Lo que dice la especificación",
@@ -263,8 +263,8 @@
           "icone": "arquivo"
         },
         {
-          "t": "Formación WebMCP de INEMA (profundización; usa el nombre anterior de la API)",
-          "href": "https://inematds.github.io/webmcp-1-formacao/",
+          "t": "Formación WebMCP de ARCKHÉ (profundización; usa el nombre anterior de la API)",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {

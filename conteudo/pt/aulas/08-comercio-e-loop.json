@@ -125,7 +125,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano respeita os exercícios que pedem dias de espera.",
-      "curso": "inemaSEO 4 · Nas IAs",
+      "curso": "ARCKHÉSEO 4 · Nas IAs",
       "horas_padrao": 3,
       "degraus": [
         {"titulo": "Aula 1 · AEO e GEO sem mito", "aula": "aeo-geo-sem-mito"},
@@ -137,7 +137,7 @@
         {"titulo": "Aula 7 · WebMCP", "aula": "webmcp-preparacao"},
         {"titulo": "Aula 8 · Comércio e loop", "aula": "comercio-e-loop"}
       ],
-      "txt": {"titulo": "Plano — inemaSEO 4 · Nas IAs", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
+      "txt": {"titulo": "Plano — ARCKHÉSEO 4 · Nas IAs", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
     },
     {
       "tipo": "resumo",
@@ -154,7 +154,7 @@
       "links": [
         {"t": "web.dev: sites amigáveis a agentes (inglês)", "href": "https://web.dev/articles/ai-agent-site-ux", "icone": "robo"},
         {"t": "Google: guia de otimização para IA, Merchant Center e Perfil da Empresa (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide", "icone": "lupa"},
-        {"t": "Curso 5 da Formação: Com Agentes", "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/", "icone": "terminal"}
+        {"t": "Curso 5 da Formação: Com Agentes", "href": "https://linnoff88-dev.github.io/ "icone": "terminal"}
       ]
     }
   ]

@@ -47,7 +47,7 @@
         {"titulo": "Detectar e cair para o manual", "sub": "feature detection",
          "texto": ["Registre só se o navegador expõe a API ('modelContext' in document). Se não expõe, a página continua igual para a pessoa, com o caminho manual visível.", "Guarde o AbortController: abortar tira a ferramenta."]},
         {"titulo": "Nome novo, cursos antigos", "sub": "atenção",
-         "texto": ["A especificação mudou: a API agora fica em document.modelContext. Os cursos WebMCP antigos do INEMA e muitos guias usam o nome anterior, no objeto navigator, e uma forma declarativa em formulários que não aparece no texto da especificação de 16/10/2026 (a confirmar no explainer).", "Para aprofundar (segurança, schemas, agentes), siga a Formação WebMCP, com esse ajuste de nome em mente."]}
+         "texto": ["A especificação mudou: a API agora fica em document.modelContext. Os cursos WebMCP antigos do ARCKHÉ e muitos guias usam o nome anterior, no objeto navigator, e uma forma declarativa em formulários que não aparece no texto da especificação de 16/10/2026 (a confirmar no explainer).", "Para aprofundar (segurança, schemas, agentes), siga a Formação WebMCP, com esse ajuste de nome em mente."]}
       ]
     },
     {
@@ -65,7 +65,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "No inema.club (19/10/2026)", "html": "<p>O agente-ready achou no inema.club <b>1 chamada registerTool()</b> em document.modelContext e a política <code>Permissions-Policy: tools=(self)</code>; o bloco WebMCP fechou em 100. Nos sites news e eventos, sem ferramenta, o bloco ficou em 29.</p><p>Isso mede preparação. Nenhuma IA promete citar ou ranquear melhor por causa disso.</p>"},
+          {"rot": "No ARCKHÉ AI (19/10/2026)", "html": "<p>O agente-ready achou no ARCKHÉ AI <b>1 chamada registerTool()</b> em document.modelContext e a política <code>Permissions-Policy: tools=(self)</code>; o bloco WebMCP fechou em 100. Nos sites news e eventos, sem ferramenta, o bloco ficou em 29.</p><p>Isso mede preparação. Nenhuma IA promete citar ou ranquear melhor por causa disso.</p>"},
           {"rot": "O que a especificação diz", "html": "<ul><li><code>registerTool(tool, options)</code> rejeita nome repetido, nome ou descrição vazios e schema inválido.</li><li><code>options.signal</code>: abortar tira a ferramenta.</li><li><code>annotations</code>: readOnlyHint, untrustedContentHint, consequentialHint.</li><li><code>Permissions-Policy: tools=()</code> desliga a API na página e nos frames.</li></ul>"}
         ]
       }
@@ -116,7 +116,7 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "W3C WebML CG: especificação WebMCP, 16/10/2026 (inglês)", "href": "https://webmachinelearning.github.io/webmcp/", "icone": "arquivo"},
-        {"t": "Formação WebMCP do INEMA (aprofundamento; usa o nome anterior da API)", "href": "https://inematds.github.io/webmcp-1-formacao/", "icone": "camadas"},
+        {"t": "Formação WebMCP do ARCKHÉ (aprofundamento; usa o nome anterior da API)", "href": "https://linnoff88-dev.github.io/ "icone": "camadas"},
         {"t": "web.dev: sites amigáveis a agentes (inglês)", "href": "https://web.dev/articles/ai-agent-site-ux", "icone": "robo"}
       ]
     }
