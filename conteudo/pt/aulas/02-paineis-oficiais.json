@@ -5,8 +5,8 @@
   "titulo": "Painéis oficiais: o relatório de IA do Search Console e o AI Performance do Bing",
   "titulo_curto": "Painéis oficiais de IA",
   "minutos": 17,
-  "lead": "Em 2026 surgiram os primeiros painéis oficiais e gratuitos sobre IA: o relatório de IA generativa do Search Console e o AI Performance do Bing, agora com o Topics Portfolio. Cada um mede uma coisa diferente e nenhum mede tudo. Saber o que cada número é evita tirar conclusão errada.",
-  "objetivo": "abrir o relatório de IA do Search Console e o AI Performance do Bing e anotar o que cada um mede e o que não mede.",
+  "lead": "Em 2026 surgiram os primeiros painéis oficiais e gratuitos sobre IA: o relatório de IA generativa do Search Console e o AI Performance do Bing, agora com o Topics Portfolio. Cada um mede uma coisa diferente e nenhum mede tudo. Saber o que cada número é evita tirar conclusêo errada.",
+  "objetivo": "abrir o relatório de IA do Search Console e o AI Performance do Bing e anotar o que cada um mede e o que nêo mede.",
   "competencias": ["ler-relatorio-ia-search-console", "ler-ai-performance-bing", "montar-linha-de-base"],
   "aprende": [
     {"t": "O que o relatório de IA generativa do Search Console mostra (e o que falta)"},
@@ -22,15 +22,15 @@
       "sub": "Clique em cada bloco.",
       "nos": [
         {"icone": "lupa", "titulo": "Search Console", "sub": "relatório de IA generativa",
-         "detalhe": "Mostra impressões em recursos de IA generativa da Busca do Google (inclui Discover). Pela página de ajuda, foi liberado para todos os sites em 31/08/2026. Mede impressão, não citação nem clique. AI Overviews e AI Mode também já contam no relatório de Desempenho comum."},
+         "detalhe": "Mostra impressões em recursos de IA generativa da Busca do Google (inclui Discover). Pela página de ajuda, foi liberado para todos os sites em 31/08/2026. Mede impressêo, nêo citaçêo nem clique. AI Overviews e AI Mode também já contam no relatório de Desempenho comum."},
         {"icone": "grafico", "titulo": "Bing AI Performance", "sub": "citações", "forte": true,
-         "detalhe": "Prévia pública desde fevereiro de 2026: total de citações, páginas citadas por dia e as grounding queries (as frases que a IA usou para buscar o conteúdo citado). Cobre o Copilot, os resumos de IA do Bing e parceiros selecionados. Os dados são amostra e não têm clique. É o único painel oficial de \"fui citado\"."},
+         "detalhe": "Prévia pública desde fevereiro de 2026: total de citações, páginas citadas por dia e as grounding queries (as frases que a IA usou para buscar o conteúdo citado). Cobre o Copilot, os resumos de IA do Bing e parceiros selecionados. Os dados sêo amostra e nêo têm clique. É o único painel oficial de \"fui citado\"."},
         {"icone": "camadas", "titulo": "Topics Portfolio", "sub": "beta, 13/10/2026",
          "detalhe": "Dentro do AI Performance, agrupa as grounding queries em temas e mostra demanda, concorrência e consultas de oportunidade. Novo e em beta: anote a data quando usar."},
         {"icone": "lista", "titulo": "Sua planilha", "sub": "linha de base do mês",
-         "detalhe": "Os painéis não conversam entre si. Uma linha por mês com impressões de IA (Google), citações (Bing), páginas citadas e grounding queries vira a sua série histórica. O tráfego que chega das IAs fica no GA4 (curso 3, aula 7)."}
+         "detalhe": "Os painéis nêo conversam entre si. Uma linha por mês com impressões de IA (Google), citações (Bing), páginas citadas e grounding queries vira a sua série histórica. O tráfego que chega das IAs fica no GA4 (curso 3, aula 7)."}
       ],
-      "legenda": "Google conta impressão, Bing conta citação, a sua planilha junta os dois com data."
+      "legenda": "Google conta impressêo, Bing conta citaçêo, a sua planilha junta os dois com data."
     },
     {
       "tipo": "passos",
@@ -40,12 +40,12 @@
         {"titulo": "Search Console", "sub": "impressões de IA",
          "texto": ["Abra a propriedade do site e procure o relatório de IA generativa. Anote o total de impressões dos últimos 28 dias e as páginas com mais impressões.", "Se aparecer pouco ou nada, anote \"sem dado ainda\": também é linha de base."]},
         {"titulo": "Bing AI Performance", "sub": "citações",
-         "texto": ["No Bing Webmaster Tools, abra AI Performance. Anote o total de citações, as 5 páginas mais citadas e 5 grounding queries.", "Exporte o CSV: não existe API para esses dados (um relato de terceiro diz que está \"no backlog, sem prazo\")."]},
+         "texto": ["No Bing Webmaster Tools, abra AI Performance. Anote o total de citações, as 5 páginas mais citadas e 5 grounding queries.", "Exporte o CSV: nêo existe API para esses dados (um relato de terceiro diz que está \"no backlog, sem prazo\")."]},
         {"titulo": "Topics Portfolio", "sub": "temas",
          "texto": ["Se o beta já aparecer para o seu site, anote os 3 temas com mais demanda e onde a concorrência é menor. Eles viram pauta, junto com o curso 2."]},
         {"titulo": "Ler com cuidado", "sub": "limites",
-         "texto": ["Impressão de IA não é clique; citação no Bing é amostra; nenhum dos dois mede o ChatGPT, o Claude ou o Gemini diretamente. Para esses, a aula 3 ensina a bateria de perguntas."],
-         "exemplo": {"rot": "Erro comum", "texto": "Somar impressões do Google com citações do Bing num número só. São medidas diferentes: fique com duas colunas."}}
+         "texto": ["Impressêo de IA nêo é clique; citaçêo no Bing é amostra; nenhum dos dois mede o ChatGPT, o Claude ou o Gemini diretamente. Para esses, a aula 3 ensina a bateria de perguntas."],
+         "exemplo": {"rot": "Erro comum", "texto": "Somar impressões do Google com citações do Bing num número só. Sêo medidas diferentes: fique com duas colunas."}}
       ]
     },
     {
@@ -61,8 +61,8 @@
       "saida": {
         "selo": "simulacao",
         "abas": [
-          {"rot": "O que o relatório separa", "html": "<p>O bing-ia divide as páginas em quatro grupos:</p><ul><li><b>Citadas pela IA e com clique no Google</b>: funcionam nos dois; manter atualizadas.</li><li><b>Citadas, sem clique no Google</b>: a IA confia, o Google não manda gente; revisar título e consulta-alvo.</li><li><b>Com clique no Google, nunca citadas</b>: candidatas a resposta direta, autoria e data.</li><li><b>Ideias</b>: grounding queries que nunca apareceram no Search Console.</li></ul>"},
-          {"rot": "Atenção ao exemplo", "html": "<p>O exemplo do repositório usa CSV <b>fictícios</b> (números inventados, URLs reais) para mostrar a ferramenta. A Microsoft não documenta as colunas do export: os nomes que a ferramenta reconhece são palpite a confirmar com um CSV real.</p>"}
+          {"rot": "O que o relatório separa", "html": "<p>O bing-ia divide as páginas em quatro grupos:</p><ul><li><b>Citadas pela IA e com clique no Google</b>: funcionam nos dois; manter atualizadas.</li><li><b>Citadas, sem clique no Google</b>: a IA confia, o Google nêo manda gente; revisar título e consulta-alvo.</li><li><b>Com clique no Google, nunca citadas</b>: candidatas a resposta direta, autoria e data.</li><li><b>Ideias</b>: grounding queries que nunca apareceram no Search Console.</li></ul>"},
+          {"rot": "Atençêo ao exemplo", "html": "<p>O exemplo do repositório usa CSV <b>fictícios</b> (números inventados, URLs reais) para mostrar a ferramenta. A Microsoft nêo documenta as colunas do export: os nomes que a ferramenta reconhece sêo palpite a confirmar com um CSV real.</p>"}
         ]
       }
     },
@@ -76,26 +76,26 @@
          "pronto": "linha-de-base-ia.csv tem a linha do mês com as duas colunas preenchidas (número ou \"sem dado\") e a data."},
         {"id": "e2", "titulo": "E2 · Cinco grounding queries", "min": "15 min",
          "texto": "No AI Performance, anote 5 grounding queries e a página citada em cada uma. Marque quais dessas frases também aparecem no Search Console do seu site.",
-         "pronto": "lista com 5 grounding queries, a página citada e \"aparece no Google: sim/não\" (ou a anotação de que o Bing ainda não mostra citações)."}
+         "pronto": "lista com 5 grounding queries, a página citada e \"aparece no Google: sim/nêo\" (ou a anotaçêo de que o Bing ainda nêo mostra citações)."}
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {"p": "O relatório de IA generativa do Search Console mostra o quê?",
-         "opcoes": ["Cliques vindos do ChatGPT.", "Impressões em recursos de IA generativa da Busca do Google.", "Citações em todas as IAs.", "A posição do site no AI Mode."],
-         "certa": 1, "explica": "É um relatório de impressões. Não mede citação nem outras IAs. O erro comum é ler impressão como clique.", "ref": "diagrama", "cert": true},
+         "opcoes": ["Cliques vindos do ChatGPT.", "Impressões em recursos de IA generativa da Busca do Google.", "Citações em todas as IAs.", "A posiçêo do site no AI Mode."],
+         "certa": 1, "explica": "É um relatório de impressões. Nêo mede citaçêo nem outras IAs. O erro comum é ler impressêo como clique.", "ref": "diagrama", "cert": true},
         {"p": "Qual é o único painel oficial que mostra citações por IA?",
          "opcoes": ["Google Analytics 4.", "Bing Webmaster Tools, AI Performance.", "Search Console, relatório de Desempenho.", "O painel da CDN."],
-         "certa": 1, "explica": "O AI Performance mostra citações, páginas citadas e grounding queries do Copilot e dos resumos do Bing. São amostra e não têm clique.", "ref": "diagrama"},
+         "certa": 1, "explica": "O AI Performance mostra citações, páginas citadas e grounding queries do Copilot e dos resumos do Bing. Sêo amostra e nêo têm clique.", "ref": "diagrama"},
         {"p": "O que é uma grounding query?",
          "opcoes": ["A palavra-chave que você escolheu.", "A frase que a IA usou para buscar o conteúdo que acabou citando.", "Uma consulta de marca.", "Um tipo de schema."],
          "certa": 1, "explica": "É a busca que a IA fez por trás da resposta. Lista de grounding queries é pauta com demanda comprovada.", "ref": "passos"},
         {"p": "Como juntar Google e Bing no relatório do mês?",
          "opcoes": ["Somar impressões e citações num total.", "Manter colunas separadas, com a data, porque medem coisas diferentes.", "Usar só o maior dos dois.", "Trocar pelo número de uma ferramenta paga."],
-         "certa": 1, "explica": "Impressão e citação não se somam. Duas colunas por mês viram série histórica comparável.", "ref": "codigo"}
+         "certa": 1, "explica": "Impressêo e citaçêo nêo se somam. Duas colunas por mês viram série histórica comparável.", "ref": "codigo"}
       ]
     },
     {
@@ -104,7 +104,7 @@
       "itens": [
         {"t": "Google", "texto": "Relatório de IA generativa: impressões, para todos os sites desde 31/08/2026."},
         {"t": "Bing", "texto": "AI Performance: citações e grounding queries (amostra, sem clique); Topics Portfolio em beta desde 13/10/2026."},
-        {"t": "Régua de 2026", "texto": "São os únicos números oficiais de IA. Ferramenta paga dá amostra, não nota oficial."}
+        {"t": "Régua de 2026", "texto": "Sêo os únicos números oficiais de IA. Ferramenta paga dá amostra, nêo nota oficial."}
       ]
     },
     {
