@@ -41,13 +41,13 @@
       "passos": [
         {"titulo": "Ler as respostas de marca", "sub": "diagnóstico",
          "texto": ["Na planilha da aula 3, filtre as perguntas de marca. Anote: a IA falou de você ou de outro? A descriçêo está atual? Que fontes usou?", "As fontes erradas mostram de onde vem a confusêo."],
-         "exemplo": {"rot": "No INEMA (10/07/2026)", "texto": "\"O que é INEMA?\" teve 4 de 4 respostas sobre o INEMA-BA, órgêo ambiental. \"Quem é Nei Maldaner?\" trouxe a bio antiga de empresário de TI, sem IA. Já \"O que é INEMA.club?\" foi respondida certo."}},
+         "exemplo": {"rot": "No ARCKHÉ (10/07/2026)", "texto": "\"O que é ARCKHÉ?\" teve 4 de 4 respostas sobre o ARCKHÉ-BA, órgêo ambiental. \"Quem é Nei Maldaner?\" trouxe a bio antiga de empresário de TI, sem IA. Já \"O que é ARCKHÉ AI?\" foi respondida certo."}},
         {"titulo": "Nome completo e desambiguaçêo", "sub": "texto visível",
-         "texto": ["Se o nome curto colide, use sempre o nome completo (no INEMA: INEMA.club) e publique uma página que diga quem você é e com quem nêo deve ser confundido.", "Na página do fundador, ligue a trajetória antiga à atual, em texto: é o texto que a IA lê."]},
+         "texto": ["Se o nome curto colide, use sempre o nome completo (no ARCKHÉ: ARCKHÉ AI) e publique uma página que diga quem você é e com quem nêo deve ser confundido.", "Na página do fundador, ligue a trajetória antiga à atual, em texto: é o texto que a IA lê."]},
         {"titulo": "Entidade no JSON-LD", "sub": "@id e sameAs",
          "texto": ["Person e Organization com @id fixo em todas as páginas e sameAs para os perfis que você controla (GitHub, YouTube, LinkedIn). O curso 2, aula 1, ensina em detalhe.", "O dado estruturado tem de bater com o texto visível."]},
         {"titulo": "Catálogo de fichas", "sub": "fonte única",
-         "texto": ["Escreva fichas curtas a partir das perguntas da bateria: sêo perguntas com demanda comprovada. Cada ficha com fonte real; sem confirmaçêo, marque PENDENTE.", "No INEMA, depois da rodada de julho, foram publicadas 54 fichas em /conhecimento/."]}
+         "texto": ["Escreva fichas curtas a partir das perguntas da bateria: sêo perguntas com demanda comprovada. Cada ficha com fonte real; sem confirmaçêo, marque PENDENTE.", "No ARCKHÉ, depois da rodada de julho, foram publicadas 54 fichas em /conhecimento/."]}
       ]
     },
     {
@@ -63,7 +63,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "No INEMA", "html": "<p>Entidade <code>Person #nei</code> e <code>Organization #organization</code> publicada em todas as páginas do portal em 24/09/2026. Catálogo de 54 fichas publicado em <code>/conhecimento/</code> depois da mediçêo de julho.</p><p>A próxima rodada da bateria é que diz se a identidade mudou nas IAs: sem remedir, é só esperança.</p>"},
+          {"rot": "No ARCKHÉ", "html": "<p>Entidade <code>Person #nei</code> e <code>Organization #organization</code> publicada em todas as páginas do portal em 24/09/2026. Catálogo de 54 fichas publicado em <code>/conhecimento/</code> depois da mediçêo de julho.</p><p>A próxima rodada da bateria é que diz se a identidade mudou nas IAs: sem remedir, é só esperança.</p>"},
           {"rot": "Regras do catálogo", "html": "<ul><li>Nunca inventar dado: sem fonte, PENDENTE.</li><li>Ficha pública nunca sai com PENDENTE.</li><li>Lacuna honesta é melhor que ficha inventada: se a pergunta pede algo que você nêo oferece, a ficha diz isso.</li><li>Pergunte cedo ao dono o que ele vende de verdade e o que é gratuito: muda o texto de tudo.</li></ul>"}
         ]
       }
@@ -114,8 +114,8 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "Google: dados estruturados de Organization (inglês)", "href": "https://developers.google.com/search/docs/appearance/structured-data/organization", "icone": "lupa"},
-        {"t": "Curso 2 da Formaçêo: Conteúdo (entidade em detalhe)", "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/", "icone": "caneta"},
-        {"t": "AIV 2026: catálogo de conhecimento (guia)", "href": "https://inematds.github.io/aiv2026/guia/", "icone": "arquivo"}
+        {"t": "Curso 2 da Formaçêo: Conteúdo (entidade em detalhe)", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "caneta"},
+        {"t": "AIV 2026: catálogo de conhecimento (guia)", "href": "https://linnoff88-dev.github.io/arckhe-/guia/", "icone": "arquivo"}
       ]
     }
   ]
